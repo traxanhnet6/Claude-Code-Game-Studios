@@ -1,0 +1,5 @@
+name: muse_game_studio_scope_check
+title: Check a game batch against its original scope
+description: Compare the current state of a feature or batch with its original plan, quantify additions and removals, and give a scope verdict that refuses to compute a percentage from an empty or unreadable baseline.
+category: Creation
+include_in_prompt: false

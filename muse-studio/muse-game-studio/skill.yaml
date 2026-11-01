@@ -1,0 +1,5 @@
+name: muse_game_studio
+title: Run the Muse game studio
+description: Coordinate game work on Muse like a small studio, with named role briefs for child agents and hard gates for art evidence, quiet tree verification, live deploy checks and token discipline.
+category: Creation
+include_in_prompt: true

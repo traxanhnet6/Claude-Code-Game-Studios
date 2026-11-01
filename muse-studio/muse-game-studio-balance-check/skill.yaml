@@ -1,0 +1,5 @@
+name: muse_game_studio_balance_check
+title: Check game balance against stated targets
+description: Audit combat, economy, progression and loot values against the targets stated in the project design and economy documents, flag outliers and degenerate strategies, and verify fixes without bending balance to fit a wrong test.
+category: Creation
+include_in_prompt: false

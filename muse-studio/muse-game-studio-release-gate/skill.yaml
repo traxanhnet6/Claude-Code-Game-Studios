@@ -1,0 +1,5 @@
+name: muse_game_studio_release_gate
+title: Gate a game release for web and Android
+description: Run the full release gate for a game batch, covering quiet tree and independent suite checks, build verification, live hash matching, live acceptance playtest and Android APK signing and device evidence, ending in a ready or not ready verdict.
+category: Creation
+include_in_prompt: false

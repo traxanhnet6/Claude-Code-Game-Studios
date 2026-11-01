@@ -1,0 +1,5 @@
+name: muse_game_studio_playtest_evidence
+title: Prove a game change with playtest evidence
+description: Verify a game change with an automated smoke run read from its full log plus a real browser playtest, and retain dated screenshots as evidence before the change is called done.
+category: Creation
+include_in_prompt: false

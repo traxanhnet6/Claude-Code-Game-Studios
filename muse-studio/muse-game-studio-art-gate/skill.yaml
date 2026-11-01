@@ -1,0 +1,5 @@
+name: muse_game_studio_art_gate
+title: Gate game art against the reference standard
+description: Judge new or changed game art against the user reference images and the project art bible, audit the asset files with real measurements, and hold anything below standard inside the team instead of showing it to the user.
+category: Creation
+include_in_prompt: false
