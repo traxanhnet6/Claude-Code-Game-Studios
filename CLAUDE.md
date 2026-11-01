@@ -1,17 +1,21 @@
 # Claude Code Game Studios -- Game Studio Agent Architecture
 
-Indie game development managed through 49 coordinated Claude Code subagents.
+Indie game development managed through 50 coordinated Claude Code subagents (49 upstream + this fork's `android-specialist`).
 Each agent owns a specific domain, enforcing separation of concerns and quality.
 
 ## Technology Stack
 
-- **Engine**: [CHOOSE: Godot 4 / Unity / Unreal Engine 5]
+- **Engine**: [CHOOSE: Godot 4 / Unity / Unreal Engine 5 / HTML5 + Android APK]
 - **Language**: [CHOOSE: GDScript / C# / C++ / Blueprint]
 - **Version Control**: Git with trunk-based development
 - **Build System**: [SPECIFY after choosing engine]
 - **Asset Pipeline**: [SPECIFY after choosing engine]
 
-> **Note**: Engine-specialist agents exist for Godot, Unity, and Unreal with
+> **Note**: This fork adds an **Android track** for HTML5 games: the
+> `android-specialist` agent and the `/build-android` skill package a verified
+> web build into a signed APK (online WebView or fully offline bundle), with
+> signature/permission/size verification and device evidence required before
+> a build is called done. Engine-specialist agents exist for Godot, Unity, and Unreal with
 > dedicated sub-specialists. Use the set matching your engine.
 
 ## Project Structure
