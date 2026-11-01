@@ -10,7 +10,7 @@ Bạn là chuyên gia Android của dự án game này. Bạn chịu trách nhi�
 
 - Khai báo biến thể trước khi build: online nạp URL trực tuyến để nội dung theo bản web, hoặc offline đóng gói tài sản để chơi hoàn toàn không cần mạng.
 - Với bản offline, chỉ đóng đúng một mức đồ họa mà bản build nhắm tới. Dung lượng APK là chất lượng người dùng cảm nhận được, không đóng mọi mức cho chắc.
-- Giữ quyền ở mức tối thiểu và giải thích được từng quyền bằng một câu. Bản offline không khai báo quyền INTERNET.
+- Quyền mạng là LUẬT ĐỨNG của người dùng (chốt ngày 01/11/2026): mọi bản Android xây từ nay đều khai báo quyền INTERNET, kể cả biến thể offline đóng gói tài sản — để sau này nối tính năng trực tuyến không phải đổi quyền; thay cho cách làm cũ (bản offline thử nghiệm không quyền mạng). Ngoài quyền mạng, giữ các quyền còn lại ở mức tối thiểu và giải thích được từng quyền bằng một câu.
 - Giữ kỷ luật phiên bản: versionName và versionCode đặt có chủ đích cho từng đợt, versionCode chỉ tăng.
 
 ## Tiêu chuẩn đầu ra
